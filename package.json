@@ -1,0 +1,19 @@
+{
+  "name": "@builderry/configs",
+  "version": "0.0.1-11",
+  "private": false,
+  "description": "Servers configs",
+  "main": "dist/main.js",
+  "access": "public",
+  "publishConfig": {
+    "cache": "cache/.npm",
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [],
+  "author": "Uladzimir Karpau",
+  "license": "ISC"
+}
